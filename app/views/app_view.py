@@ -6,7 +6,7 @@ st.set_page_config(page_title="Biblioteca Digital", page_icon="-book-")
 
 # LOCAL: http://127.0.0.1:8000/livros
 # PRODUÇÃO: https://seu-projeto.onrender.com/livros
-API_URL = os.getenv("https://api-livros-bea.onrender.com/livros", "http://127.0.0.1:8000/livros")
+API_URL = os.getenv("https://api-livros-bea.onrender.com", "http://127.0.0.1:8000/livros")
 
 st.title(" Gestor de Livros (MVC)")
 
